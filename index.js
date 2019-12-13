@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 3000;
 
 async function start() {
 	try {
-		const url = ``;
+		const url = ``; // url from env
 		await mongoose.connect(url, { useNewUrlParser: true });
 
 		app.listen(PORT, () => {
